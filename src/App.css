@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+.Counter
+{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ column-gap:10px;
+}
+.SavedTimes{
+  padding-left:20px;
+}
+.CounterButtons{
+  display:grid ;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1fr;
+  height:40px;
+  color: #000;
+}
+.CounterButton{
+  font-size:20px;
+}
+.ListButton{
+  font-size:20px;
+}
+.ListButtons{
+  display:grid ;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1fr;
+  height:40px;
+  color: #000;
+}
+.Time{
+  font-size: 50px;
+  text-align: center;
+}
+.InputField{
+  display:block;
+  width: 100%;
+  height:50px;
+  font-size: 40px;
+}
+.ListItems{
+  font-size:30px;
+}
+.ListPlaceholder{
+  font-size:20px;
+}
+.TimerStatus{
+  font-size:30px;
+}
